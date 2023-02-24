@@ -50,12 +50,12 @@ include "./api/base.php";
 						?>
 							歡迎，<?=$_SESSION['login'];?>
 							<button> <a href="back.php">管理</a> </button>
-							<button> <a href="./api/login.php">登出</a> </button>
+							<button> <a href="./api/logout.php">登出</a> </button>
 						<?php
 						}else{
 						?>
 							歡迎，<?=$_SESSION['login'];?>
-							<button> <a href="./api/login.php">登出</a> </button>
+							<button> <a href="./api/logout.php">登出</a> </button>
 						<?php
 						}
 					}else{
